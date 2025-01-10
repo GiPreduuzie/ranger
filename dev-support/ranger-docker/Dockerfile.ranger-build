@@ -48,6 +48,4 @@ VOLUME /home/ranger/patches
 VOLUME /home/ranger/dist
 VOLUME /home/ranger/src
 
-USER ranger
-
-ENTRYPOINT [ "/home/ranger/scripts/ranger-build.sh" ]
+ENTRYPOINT [ "/home/ranger/scripts/ranger-build-entrypoint.sh" ]
